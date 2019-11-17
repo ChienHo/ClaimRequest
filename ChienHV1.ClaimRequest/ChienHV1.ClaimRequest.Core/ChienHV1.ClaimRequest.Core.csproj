@@ -48,9 +48,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inferstructure\GennericRepository.cs" />
+    <Compile Include="Infrastructure\BaseGeneric\GenericRepository.cs" />
+    <Compile Include="Infrastructure\BaseGeneric\IGenericRepository.cs" />
+    <Compile Include="Infrastructure\BaseService\BaseService.cs" />
+    <Compile Include="Infrastructure\BaseService\IBaseService.cs" />
+    <Compile Include="Infrastructure\Service\ClaimService.cs" />
+    <Compile Include="Infrastructure\Service\DepartmentService.cs" />
+    <Compile Include="Infrastructure\Service\IClaimService.cs" />
+    <Compile Include="Infrastructure\Service\IDepartmentService.cs" />
+    <Compile Include="Infrastructure\Service\IStaffProjectService.cs" />
+    <Compile Include="Infrastructure\Service\IStaffService.cs" />
+    <Compile Include="Infrastructure\Service\StaffProjectService.cs" />
+    <Compile Include="Infrastructure\Service\StaffService.cs" />
     <Compile Include="Model\Claim.cs" />
     <Compile Include="Model\ClaimRequestContext.cs" />
+    <Compile Include="Model\ClaimRequestInitializer.cs" />
     <Compile Include="Model\Department.cs" />
     <Compile Include="Model\Project.cs" />
     <Compile Include="Model\Staff.cs" />
